@@ -12,6 +12,7 @@ license: apache-2.0
 
 # PyThaiNLP Demo
 
+This demo will online at [https://huggingface.co/spaces/pythainlp/pythainlp](https://huggingface.co/spaces/pythainlp/pythainlp). You can fork and send your pull request to the project.
 
 Running: streamlit run app.py
 
