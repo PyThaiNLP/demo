@@ -9,17 +9,17 @@ PyThaiNLP support machine translation for translate text. We have
 
 - th2en - (default) Thai to English translation
 - en2th - English to Thai translation
-- th2zh - Thai to Chinese translation
-- zh2th - Chinese to Thai translation
 - th2fr - Thai to French translation
 
 for this demo page. It will use many times for running model.
 """)
+# - th2zh - Thai to Chinese translation
+# - zh2th - Chinese to Thai translation
 _engine =None
 with st.form("my_form"):
     st.write("Input text")
     text = st.text_area("text","นี่เป็นการทดสอบการแปลภาษาไทยเป็นภาษาอังกฤษ")
-    engine=st.selectbox('Select', ['th2en', 'en2th', 'zh2th', 'th2zh', 'th2fr'], key=1,index=0)
+    engine=st.selectbox('Select', ['th2en', 'en2th', 'th2fr'], key=1,index=0) # 'zh2th', 'th2zh'
 
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")
