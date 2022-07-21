@@ -16,7 +16,7 @@ for this demo page.
 
 with st.form("my_form"):
     st.write("Input text")
-    text = st.text_area("text")
+    text = st.text_area("text","ผมกินข้าว เธอไปโรงเรียน")
     engine=st.selectbox('Select sentence tokenizer', ['crfcut', 'whitespace+newline', 'whitespace', 'tltk'], key=1,index=0)
 
     # Every form must have a submit button.

@@ -15,7 +15,7 @@ for this demo page.
 
 with st.form("my_form"):
     st.write("Input words")
-    text = st.text_area("text")
+    text = st.text_area("text","รถ\nรด")
     engine=st.selectbox('Select soundex', ['udom83', 'lk82', 'metasound'], key=1,index=0)
 
     # Every form must have a submit button.

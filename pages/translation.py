@@ -18,7 +18,7 @@ for this demo page. It will use many times for running model.
 _engine =None
 with st.form("my_form"):
     st.write("Input text")
-    text = st.text_area("text")
+    text = st.text_area("text","นี่เป็นการทดสอบการแปลภาษาไทยเป็นภาษาอังกฤษ")
     engine=st.selectbox('Select', ['th2en', 'en2th', 'zh2th', 'th2zh', 'th2fr'], key=1,index=0)
 
     # Every form must have a submit button.

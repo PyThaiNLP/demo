@@ -21,7 +21,7 @@ for this demo page.
 
 with st.form("my_form"):
     st.write("Input text")
-    text = st.text_area("text")
+    text = st.text_area("text", "แมวกินปลา")
     word_engine=st.selectbox('Select word tokenize', ['newmm', 'mm', 'longest', 'tltk'], key=1,index=0)
     pos_corpus = st.selectbox('Select POS corpus', ['lst20', 'orchid', 'pud', 'lst20_ud', 'orchid_ud'], key=1,index=0)
     pos_engine = st.selectbox('Select Postag engine', ['perceptron', 'unigram', 'tltk'], key=1,index=0)

@@ -15,7 +15,7 @@ for this demo page. You can custom dictionary for some word tokenizer engine. (P
 """)
 with st.form("my_form"):
     st.write("Input text")
-    text = st.text_area("text")
+    text = st.text_area("text","ทดสอบการตัดคำ")
     engine=st.selectbox('Select word tokenizition', ['newmm', 'mm', 'longest', 'tltk'], key=1,index=0)
 
     # Every form must have a submit button.

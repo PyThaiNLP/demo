@@ -16,8 +16,8 @@ for this demo page.
 """)
 with st.form("my_form"):
     st.write("Input text")
-    _text = st.text_area("text")
-    engine=st.selectbox('Select word tokenizition', ['tcc', 'etcc', 'dict', 'ssg', 'tltk'], key=1,index=0)
+    _text = st.text_area("text","ทดสอบการตัดคำ")
+    engine=st.selectbox('Select subword tokenizition', ['tcc', 'etcc', 'dict', 'ssg', 'tltk'], key=1,index=0)
 
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")

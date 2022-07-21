@@ -21,7 +21,7 @@ and trained with corpus
 _engine =None
 with st.form("my_form"):
     st.write("Inside the form")
-    text = st.text_area("text")
+    text = st.text_area("text","พรุ่งนี้เจอกันเวลา 10.00 น. ที่สถาบันวิทยสิริเมธี")
     engine=st.selectbox('Select engine', ['thainer', 'wangchanberta', 'tltk'], key=1,index=0)
     corpus=st.selectbox('Select corpus', ['thainer', 'lst20'], key=1,index=0)
 
