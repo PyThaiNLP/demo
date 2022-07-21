@@ -14,7 +14,7 @@ for this demo page.
 """)
 
 with st.form("my_form"):
-    st.write("Inside the form")
+    st.write("Input words")
     text = st.text_area("text")
     engine=st.selectbox('Select soundex', ['udom83', 'lk82', 'metasound'], key=1,index=0)
 

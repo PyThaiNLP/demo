@@ -15,7 +15,7 @@ for this demo page. You can custom dictionary for some word tokenizer engine. (P
 """)
 
 with st.form("my_form"):
-    st.write("Inside the form")
+    st.write("Input word")
     text = st.text_input("text")
     engine=st.selectbox('Select transliterate', ['thaig2p', 'tltk_g2p', 'tltk_ipa'], key=1,index=0)
 

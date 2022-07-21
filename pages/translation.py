@@ -17,7 +17,7 @@ for this demo page. It will use many times for running model.
 """)
 _engine =None
 with st.form("my_form"):
-    st.write("Inside the form")
+    st.write("Input text")
     text = st.text_area("text")
     engine=st.selectbox('Select', ['th2en', 'en2th', 'zh2th', 'th2zh', 'th2fr'], key=1,index=0)
 
