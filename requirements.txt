@@ -15,4 +15,4 @@ tensorflow
 pandas
 tltk
 streamlit
-pythainlp==3.0.8
+pythainlp==4.0
