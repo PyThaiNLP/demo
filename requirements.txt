@@ -13,6 +13,5 @@ transformers
 fairseq==0.10.2
 tensorflow
 pandas
-tltk
 streamlit
 pythainlp==4.0
